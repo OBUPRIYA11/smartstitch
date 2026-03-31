@@ -1,0 +1,9 @@
+{
+  "name": "smartstitch-mailer",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "mailer.js",
+  "dependencies": {
+    "nodemailer": "^6.10.0"
+  }
+}
