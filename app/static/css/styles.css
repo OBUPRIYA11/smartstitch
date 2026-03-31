@@ -1,0 +1,22 @@
+:root { font-family: Arial, sans-serif; color-scheme: light; }
+body { margin: 0; background: #eef2ff; color: #111827; }
+header { background: #0f172a; color: white; padding: 1rem 1.5rem; }
+main { max-width: 1120px; margin: 1.25rem auto; padding: 0 1rem; }
+.card { background: white; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,.08); padding: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.active { display: block; }
+.row { display: flex; gap: .7rem; flex-wrap: wrap; margin-bottom: .8rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: .75rem; }
+.two-cols { grid-template-columns: repeat(2, minmax(240px, 1fr)); }
+label { display: flex; flex-direction: column; gap: .35rem; font-size: .92rem; }
+input, select, textarea, button { padding: .6rem; border-radius: 8px; border: 1px solid #cbd5e1; }
+button { background: #1d4ed8; color: white; border: none; cursor: pointer; }
+button:hover { background: #1e40af; }
+.model-card { border: 1px solid #cbd5e1; border-radius: 8px; padding: .6rem; }
+.model-card .btns { display: flex; gap: .4rem; margin-top: .5rem; }
+.chips span { display: inline-block; margin-right: .45rem; margin-bottom: .45rem; padding: .35rem .5rem; border-radius: 999px; border: 1px solid #cbd5e1; }
+#viewer, #dashboard-chart { width: 100%; background: #e2e8f0; border-radius: 8px; }
+.full { grid-column: 1 / -1; }
+#payment-table { width: 100%; border-collapse: collapse; margin-top: .8rem; }
+#payment-table th, #payment-table td { border: 1px solid #cbd5e1; padding: .5rem; text-align: left; }
+.prompt-box textarea { width: 100%; min-height: 90px; margin-bottom: .5rem; }
